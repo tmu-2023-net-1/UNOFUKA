@@ -1,0 +1,973 @@
+
+
+body{
+   
+    background-image: url("bg_new3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    
+    /* top: 1000px; */
+    
+}
+
+
+
+div{
+    font-family: "Hiragino Mincho Pro";
+    color: aliceblue;
+    /*font-size: 20px;*/
+    font-weight: lighter;
+    text-align: center;
+    
+    transition: 0.5s;
+}
+
+
+
+
+
+.floating-text {
+    opacity: 0; /* 初期状態は透明にする */
+}
+
+  @keyframes fade-in-out {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+
+  }
+
+
+
+  .text1{  /*  暁 delay  */
+   animation: fade-in-out 45s ease-in-out infinite;
+   animation-delay: 0s;
+   font-size: 20px;
+
+   
+   transition: font-size 0.3s ease;
+
+   margin: 0px;
+
+   
+  }
+
+  .hover-effect1 {
+    position: relative;
+    display: inline-block;
+    
+
+  }
+  
+
+  
+  .hover-effect1:hover .text1 {
+    font-size:30px;
+    transform: scale(1.5);
+    transition: 2.0s;
+  }
+  
+  .world-text1 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 12px;
+    text-align: center;
+
+  }
+  
+  .hover-effect1:hover .world-text1 {
+    opacity: 1;
+  }
+
+
+  
+
+
+
+
+
+
+
+
+  .text2{  /*  未明 delay  */
+    animation: fade-in-out 60s ease-in-out infinite;
+    animation-delay: 15s;
+    font-size: 12px;
+   }
+  
+
+   .hover-effect2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect2:hover .text2 {
+    font-size: 24px;
+    transform: scale(2.0);
+    transition: 2.0s;
+  }
+  
+  .world-text2 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect2:hover .world-text2 {
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+   .text3{  /*  彼者誰時 delay  */
+    animation: fade-in-out 90s ease-in-out infinite;
+    animation-delay: 30s;
+    font-size: 35px;
+   } 
+   
+
+   .hover-effect3 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect3:hover .text3 {
+    font-size: 50px;
+    transition: 2.0s;
+  }
+  
+  .world-text3 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect3:hover .world-text3 {
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+   .text4{  /*  東雲 delay  */
+    animation: fade-in-out 25s ease-in-out infinite;
+    animation-delay: 45s;
+    font-size: 12px;
+   }
+  
+
+   .hover-effect4 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect4:hover .text4 {
+    font-size: 24px;
+    transition: 2.0s;
+  }
+  
+  .world-text4 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect4:hover .world-text4 {
+    opacity: 1;
+  }
+
+
+
+
+
+
+   .text5{  /*  曙 delay  */
+    animation: fade-in-out 120s ease-in-out infinite;
+    animation-delay: 10s;
+    font-size: 60px;
+    
+   }
+  
+
+   .hover-effect5 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect5:hover .text5 {
+    font-size: 80px;
+    transition: 2.0s;
+  }
+
+  
+  .world-text5 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect5:hover .world-text5{
+    opacity: 1;
+  }
+
+
+
+
+
+
+   .text6{  /*  薄明 delay  */
+    animation: fade-in-out 37s ease-in-out infinite;
+    animation-delay: 32s;
+    font-size: 12px;
+   }
+   
+
+   .hover-effect6 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect6:hover .text6 {
+    font-size: 24px;
+    transition: 2.0s;
+  }
+  
+  .world-text6 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect6:hover .world-text6 {
+    opacity: 1;
+  }
+
+
+
+
+
+   
+
+
+
+
+/*　　文字の位置　朝　*/
+  .hover-effect1{
+    margin-top: 1000px;
+  margin-left: 200px;
+    
+  }
+
+  .hover-effect2{
+    top: 300px;
+    right: 100px;
+    
+  }
+
+  .hover-effect3{
+   top: 500px;
+   left: 300px;
+   
+  }
+
+  .hover-effect4{
+    top: 800px;
+    
+  }
+
+  .hover-effect5{
+    top: 1000px;
+    right: 800px;
+  }
+
+  .hover-effect6{
+    top: 1400px;
+    right: 100px;
+  }
+
+
+  /*　　ここまでで朝　　*/
+
+
+
+  /*　　ここから昼　　*/  
+
+
+  .text7{  /*  白日 delay  */
+    animation: fade-in-out 37s ease-in-out infinite;
+    animation-delay: 32s;
+    font-size: 12px;
+   }
+   
+
+   .hover-effect7 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect7:hover .text7 {
+    font-size: 24px;
+    transition: 2.0s;
+  }
+  
+  .world-text7 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect7:hover .world-text7 {
+    opacity: 1;
+  }
+
+  .text8{  /*  昼下がり　delay  */
+    animation: fade-in-out 60s ease-in-out infinite;
+    animation-delay: 15s;
+    font-size: 12px;
+   }
+  
+
+   .hover-effect8 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect8:hover .text8 {
+    font-size: 24px;
+    transition: 2.0s;
+  }
+  
+  .world-text8 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect8:hover .world-text8 {
+    opacity: 1;
+  }
+
+  .text9{  /*  正午 delay  */
+    animation: fade-in-out 25s ease-in-out infinite;
+    animation-delay: 45s;
+    font-size: 24px;
+   }
+  
+
+   .hover-effect9 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect9:hover .text9 {
+    font-size: 48px;
+    transition: 2.0s;
+  }
+  
+  .world-text9 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect9:hover .world-text9 {
+    opacity: 1;
+  }
+
+
+
+
+
+
+  /*　　文字の位置　昼　*/
+  .hover-effect7{
+    top: 1500px;
+    left: 200px;
+  }
+  .hover-effect8{
+    top: 2200px;
+    left: 200px;
+  }
+  .hover-effect9{
+    top: 1800px;
+    left: 200px;
+  }
+
+
+
+/*　　ここまで　昼　*/
+
+
+
+/*　　ここから　夕　*/
+
+
+
+.text1-1{  /*  薄暮 delay  */
+    animation: fade-in-out 60s ease-in-out infinite;
+    animation-delay: 15s;
+    font-size: 25px;
+   }
+  
+
+   .hover-effect1-1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect1-1:hover .text1-1{
+    font-size: 50px;
+    transition: 2.0s;
+  }
+  
+  .world-text1-1 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect1-1:hover .world-text1-1 {
+    opacity: 1;
+  }
+  
+
+
+
+  .text1-2{  /*  日没 delay  */
+    animation: fade-in-out 120s ease-in-out infinite;
+    animation-delay: 30s;
+    font-size: 12px;
+   }
+  
+
+   .hover-effect1-2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect1-2:hover .text1-2 {
+    font-size: 24px;
+    transition: 2.0s;
+  }
+  
+  .world-text1-2 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect1-2:hover .world-text1-2 {
+    opacity: 1;
+  }
+
+
+
+
+  .text1-3{  /* 黄昏 delay  */
+    animation: fade-in-out 44s ease-in-out infinite;
+    animation-delay: 37s;
+    font-size: 12px;
+   }
+  
+
+   .hover-effect1-3 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect1-3:hover .text1-3 {
+    font-size: 24px;
+    transition: 2.0s;
+  }
+  
+  .world-text1-3 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect1-3:hover .world-text1-3 {
+    opacity: 1;
+  }
+
+
+
+  .text1-4{  /*  逢魔時 delay  */
+    animation: fade-in-out 20s ease-in-out infinite;
+    animation-delay: 15s;
+    font-size: 24px;
+   }
+  
+
+   .hover-effect1-4 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect1-4:hover .text1-4 {
+    font-size: 48px;
+    transition: 2.0s;
+  }
+  
+  .world-text1-4 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect1-4:hover .world-text1-4 {
+    opacity: 1;
+  }
+
+
+
+
+  .text1-5{  /*  黄昏時 delay  */
+    animation: fade-in-out 75s ease-in-out infinite;
+    animation-delay: 40s;
+    font-size: 12px;
+   }
+  
+
+   .hover-effect1-5 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect1-5:hover .text1-5 {
+    font-size: 24px;
+    transition: 2.0s;
+  }
+  
+  .world-text1-5 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect1-5:hover .world-text1-5 {
+    opacity: 1;
+  }
+
+
+
+  .text1-6{  /*  入り相 delay  */
+    animation: fade-in-out 200s ease-in-out infinite;
+    animation-delay: 60s;
+    font-size: 12px;
+   }
+  
+
+   .hover-effect1-6 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect1-6:hover .text1-6 {
+    font-size: 24px;
+    transition: 2.0s;
+  }
+  
+  .world-text1-6 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect1-6:hover .world-text1-6 {
+    opacity: 1;
+  }
+
+
+
+
+   /*　　文字の位置　夕　*/
+   .hover-effect1-1{
+    top: 2500px;
+    left: 200px;
+  }
+  .hover-effect1-2{
+    top: 2800px;
+    right: 200px;
+  }
+  .hover-effect1-3{
+    top: 3100px;
+    left: 200px;
+  }
+  
+   .hover-effect1-4{
+    top: 3600px;
+    right: 200px;
+  }
+  .hover-effect1-5{
+    top: 3900px;
+    left: 200px;
+  }
+  .hover-effect1-6{
+    top: 4300px;
+    left: 200px;
+  }
+
+
+
+
+
+
+  /*　　ここまで　夕　*/
+
+
+  /*　　ここから　夜　*/
+
+  .text2-1{  /*  宵 delay  */
+    animation: fade-in-out 90s ease-in-out infinite;
+    animation-delay: 30s;
+    font-size: 24px;
+   } 
+   
+
+   .hover-effect2-1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect2-1:hover .text2-1 {
+    font-size: 48px;
+    transition: 2.0s;
+  }
+  
+  .world-text2-1 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect2-1:hover .world-text2-1 {
+    opacity: 1;
+  }
+
+
+  .text2-2{  /* 宵の口  delay  */
+    animation: fade-in-out 25s ease-in-out infinite;
+    animation-delay: 45s;
+    font-size: 12px;
+   }
+  
+
+   .hover-effect2-2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect2-2:hover .text2-2 {
+    font-size: 24px;
+    transition: 2.0s;
+  }
+  
+  .world-text2-2 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect2-2:hover .world-text2-2 {
+    opacity: 1;
+  }
+
+
+  .text2-3{  /*  暮夜 delay  */
+    animation: fade-in-out 120s ease-in-out infinite;
+    animation-delay: 10s;
+    font-size: 12px;
+   }
+  
+
+   .hover-effect2-3 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect2-3:hover .text2-3 {
+    font-size: 24px;
+    transition: 2.0s;
+  }
+
+  
+  .world-text2-3 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect2-3:hover .world-text2-3{
+    opacity: 1;
+  }
+
+
+
+  .text2-4{  /*  夜夜中 delay  */
+    animation: fade-in-out 45s ease-in-out infinite;
+    animation-delay: 0s;
+    font-size: 12px;
+ 
+    
+    transition: font-size 0.3s ease;
+ 
+    margin: 0px;
+ 
+    
+   }
+ 
+   .hover-effect2-4{
+     position: relative;
+     display: inline-block;
+    
+   }
+   
+ 
+   
+   .hover-effect2-4:hover .text2-4 {
+     font-size: 24px;
+     
+     transition: 2.0s;
+   }
+   
+   .world-text2-4 {
+     opacity: 0;
+     transition: opacity 1.5s ease;
+     font-size: 10px;
+     text-align: center;
+ 
+   }
+   
+   .hover-effect2-4:hover .world-text2-4 {
+     opacity: 1;
+   }
+
+   .text2-5{  /*  夜半　delay  */
+    animation: fade-in-out 60s ease-in-out infinite;
+    animation-delay: 15s;
+    font-size: 36px;
+   }
+  
+
+   .hover-effect2-5 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect2-5:hover .text2-5 {
+    font-size: 72px;
+    transition: 2.0s;
+  }
+  
+  .world-text2-5 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect2-5:hover .world-text2-5 {
+    opacity: 1;
+  }
+
+
+  .text2-6{  /*  残夜 delay  */
+    animation: fade-in-out 60s ease-in-out infinite;
+    animation-delay: 100s;
+    font-size: 12px;
+   }
+  
+
+   .hover-effect2-6 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect2-6:hover .text2-6{
+    font-size: 24px;
+    transition: 2.0s;
+  }
+  
+  .world-text2-6 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect2-6:hover .world-text2-6 {
+    opacity: 1;
+  }
+
+
+  .text2-7{  /*  未明 delay  */
+    animation: fade-in-out 25s ease-in-out infinite;
+    animation-delay: 45s;
+    font-size: 24px;
+   }
+  
+
+   .hover-effect2-7 {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .hover-effect2-7:hover .text2-7 {
+    font-size: 48px;
+    transition: 2.0s;
+  }
+  
+  .world-text2-7 {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .hover-effect2-7:hover .world-text2-7 {
+    opacity: 1;
+  }
+
+
+
+  
+  
+  /*　　文字の位置　夜　*/
+    .hover-effect2-1{
+        top: 4900px;
+        right: 700px;
+      }
+      .hover-effect2-2{
+        top: 5200px;
+        right: 300px;
+        
+      }
+      .hover-effect2-3{
+        top: 5600px;
+        right: 200px;
+      }
+      
+       .hover-effect2-4{
+        top: 6400px;
+        left: 200px;
+      }
+      .hover-effect2-5{
+        top: 6000px;
+        left: 400px;
+      }
+      .hover-effect2-6{
+        top: 7000px;
+        right: 200px;
+       
+      }
+
+    .hover-effect2-7{
+      top: 7200px;
+      
+
+    }
+
+
+
+
+
+
+    footer{
+      margin-top: 7500px;
+      color: black;
+      text-align: left;
+    }
+
+   .shoukai{
+    color: aliceblue;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 13px;
+    text-align: left;
+   }
+
+    h1{
+      font-size: 20px;
+      text-align: left;
+      margin-top: 100px;
+    }
+
+   
+.hinemosu1{
+  text-align: center;
+  font-size: 25px;
+}
+.hinemosu2{
+  text-align: center;
+}
